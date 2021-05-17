@@ -5,6 +5,8 @@
     <string name="plus">+</string>
     <string name="minus">-</string>
     <string name="clear">Clear</string>
-    <string name="settings">Settings</string>
+    <string name="settingsOff">Settings OFF</string>
+    <string name="settingsOn">Settings On</string>
     <string name="calc_field">Calculation field</string>
+    <string name="change_color">Change background color</string>
 </resources>
