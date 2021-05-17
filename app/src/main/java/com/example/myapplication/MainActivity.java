@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
         Button button = findViewById(R.id.button);
         Button button2 = findViewById(R.id.button2);
         Button button3 = findViewById(R.id.button3);
-        EditText editText1 = findViewById(R.id.editText1);
+        Button button4 = findViewById(R.id.button4);
+        EditText editText1 = findViewById(R.id.editText2);
         TextView textView = findViewById(R.id.textView);
         SwitchCompat switchCompat = findViewById(R.id.switch1);
         CheckBox checkBox = findViewById(R.id.checkBox);
@@ -76,6 +77,8 @@ public class MainActivity extends AppCompatActivity {
             operation = '-';
             editText1.setText("");
         });
+        button4.setOnClickListener(v -> setContentView(R.layout.sing_up));
+
         switchCompat.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
                 result = 0;
@@ -104,4 +107,5 @@ public class MainActivity extends AppCompatActivity {
         else
             linearLayout.setBackgroundResource(R.color.background_color);
     }
+
 }
