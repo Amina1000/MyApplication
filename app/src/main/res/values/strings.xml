@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="caption">Calculator example</string>
+    <string name="is_equal">=</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="clear">Clear</string>
+    <string name="settingsOff">Settings OFF</string>
+    <string name="settingsOn">Settings On</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="calc_field">Calculation field</string>
+    <string name="change_color">Change background color</string>
+    <string name="login">login</string>
+    <string name="name">name</string>
+    <string name="phone">phone</string>
+    <string name="weight">weight</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
 </resources>
