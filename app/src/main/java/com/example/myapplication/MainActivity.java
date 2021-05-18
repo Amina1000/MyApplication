@@ -102,10 +102,11 @@ public class MainActivity extends AppCompatActivity {
     public void onCheckboxClicked(View view) {
         CheckBox checkBox = findViewById(R.id.checkBox);
         LinearLayout linearLayout = findViewById(R.id.llHead);
-        if (checkBox.isChecked())
+        if (checkBox.isChecked()) {
             linearLayout.setBackgroundResource(R.color.design_default_color_background);
-        else
+        } else {
             linearLayout.setBackgroundResource(R.color.background_color);
+        }
     }
 
 }
